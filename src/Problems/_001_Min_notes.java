@@ -12,7 +12,5 @@ public class _001_Min_notes {
 				System.out.println(amt+" : "+count);
 			}
 		}
-		
 	}
-
 }
