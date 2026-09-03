@@ -8,16 +8,14 @@ public class _003_palindrome_check {
 		int left=0;
 		int right=s.length()-1;
 		char[] ch= s.toCharArray();
-		int flag=0;
+		int flag=1;
 		while(left<right) {  
 			if(ch[left]==ch[right]) {
-				flag=1;
 				left++;
 				right--;
 			}
 			else {
 				flag=0;
-				
 				break;
 			}
 		}
