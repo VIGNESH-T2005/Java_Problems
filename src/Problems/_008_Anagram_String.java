@@ -4,8 +4,11 @@ public class _008_Anagram_String {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		String s=sc.next();
-		String t=sc.next();
+		String str1=sc.next();
+		String str2=sc.next();
+		String s=str1.toLowerCase();
+		String t=str2.toLowerCase();
+		
 		if(s.length()!=t.length()) {
 			System.out.println("Not Anagram");
 		}
