@@ -1,7 +1,6 @@
 package LC;
 import java.util.*;
 public class lc_387_Unique_ch_in_String {
-
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		String s=sc.next();
@@ -15,7 +14,5 @@ public class lc_387_Unique_ch_in_String {
 				break;
 			}
 		}
-
 	}
-
 }
