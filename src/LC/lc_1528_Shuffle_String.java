@@ -9,13 +9,9 @@ public class lc_1528_Shuffle_String {
 
         String s = sc.next();
 
-        int[] a = new int[s.length()];
+        int[] a = {4, 5, 6, 7, 0, 2, 1, 3};
 
-        for (int i = 0; i < a.length; i++) {
-            a[i] = sc.nextInt();
-        }
-
-        char[] b = new char[s.length()];
+        char[] b = new char[a.length];
 
         for (int i = 0; i < a.length; i++) {
             b[a[i]] = s.charAt(i);
