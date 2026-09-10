@@ -1,9 +1,7 @@
 package Problems;
 import java.util.*;
 public class _014_Merge_Two_Arrays {
-
 	public static void main(String[] args) {
-		
 		int [] a= {1,3,5};
 		int [] b= {2,4,6};
 		int len= a.length + b.length;
@@ -22,8 +20,5 @@ public class _014_Merge_Two_Arrays {
 			}
 		}
 		System.out.println(Arrays.toString(c));
-
-
 	}
-
 }
