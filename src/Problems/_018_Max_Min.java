@@ -20,7 +20,7 @@ public class _018_Max_Min {
 				}
 			
 		}
-		System.out.println(Arrays.toString(res));
+		System.out.println(res);
 	}
 
 }
